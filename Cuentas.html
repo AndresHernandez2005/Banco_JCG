@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="./css/Styles_Cuentas.css">
+<title>Cuentas</title>
+<meta charset="UFT-8">
+<meta charset="ISO.8859">
+<meta name="author" content="German Andres Garzon Hernandez">
+<meta name="keywords" content="teclados, tienda, catalogo, productos">
+<meta name="description" content="Trabajo realizado para evidenciar el uso de meta etiquetas en html">
+<meta name="robots" content="index">
+<meta name="language" content="ES">
+<meta name="responder a" content="garzonhernandezgerman@gmail.com">
+<meta name="viewport" content="widht=device-widht,initial-scale=1.0">
+<link rel="shorcut icon" href="./img/logo banco.jpeg" />
+</head>
+<body>		
+	<header>
+		<section class="wrapper">
+        <nav>
+            <img src="./img/logo banco.jpeg" alt="logo" height="60px" width="60px">
+            <bold><i>Banco JCG </i></bold>
+            <a href="./Home.html">Home</a>
+            <a href="./Tarjetas.html">Servicios</a>
+            <a href="">Atencion al Cliente </a>
+        </nav>
+        <section>
+	</header>
+	<section>
+		<h2 id="tittlecenter">Bienvenido a nuestro Banco JCG</h2>
+		<br>
+		<p id="text">Te invitamoas a crear tu nueva cuenta de banco y disfutar de nuestros beneficios</p>
+	</section>
+	<section id="sec1">
+		<article>
+			<h2>Cuenta Ahorros</h2>
+			<br>
+			<p id="text">Utilícela para todas sus transacciones bancarias</p>
+		</article>
+		<article>
+			<h2>Cuenta Nómina</h2>
+			<br>
+			<p id="text">Para empleados de empresas con convenio y sin convenio</p>
+		</article>
+	</section>
+	<section class="formulario">
+		<h1>Ingrese sus Datos Aqui</h1>
+		<form method="post">
+			<article class="username">
+				<input type="text" required>
+				<label>Identificación</label>
+			</article>
+			<article class="typedocument">
+			<label for="TipDoc">Tipo de Documento</label>
+			<select name="TipDoc" id="Doc">
+				<option value="TI">Tarjeta de Identidad</option>
+				<option value="CC">Cedula de Ciudadania</option>
+				<option value="CE">Cedula de Extranjeria</option>
+			</select>
+			<input type="sumbit" value="Crear">
+			</article>
+		</form>
+	</section>
+<footer>
+</footer>
+</html>

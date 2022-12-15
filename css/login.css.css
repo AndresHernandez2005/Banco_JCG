@@ -1,0 +1,184 @@
+       *{
+          margin:0PX;
+          padding:0PX;
+          box-sizing:border-box;
+        }
+
+       
+
+       h1{
+        text-align: center;
+        font-weight: 100;
+       }
+
+       form{
+        background: hwb(0 100% 0%);
+        padding: 40px;
+        box-shadow: 0 0 6px rgba(19, 169, 24, 0.8);
+        border-radius: 20px;
+       }
+
+       from .grupo{
+        position: none;
+        margin: 100px;
+       }
+
+       input{
+        background: none;
+        color: rgb(61, 61, 60);
+        font-size: 20px;
+        padding: 5px 5px 5px 5px;
+        display: block;
+        width: 100%;
+       }
+
+      #cuadro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(5, 5, 5);
+        margin: 280px;
+        font-size: 250%;
+      }
+      #doc{
+        font-size: 300%;
+      }
+      body{
+        background-color:whitesmoke;
+      }
+    
+      header{
+        width:100%;
+        overflow:hidden;
+        background-color:#41bb49;
+        margin-bottom:60px;
+      }
+      header nav{
+        float:right;
+        line-height:100px;
+      }
+      /*Sirve para centrar el contenido*/
+      .wrapper{
+        width:100%;
+        max-width:1000px;
+        margin:auto;
+        
+      }
+    
+      header section {
+       float: left;
+      line-height:80px;
+    }
+    
+    header nav a{
+        display:inline-block; 
+        color:#090909;
+        text-decoration:none;
+        padding:10px 20px;
+        line-height:normal;
+        font-size:20px;
+        font-weight:bold;
+        -webkit-transition:all 100ms ease;
+        -o-transition:all 500ms ease;
+        transition:all 500ms ease;
+      }
+      header nav a:hover{
+        background-color:#eff5a5;
+        border-radius:50px;
+      }
+    
+     h1{
+      text-align: center;
+      font-weight: 1000;
+     }
+    
+     form{
+      background: hwb(0 100% 0%);
+      padding: 30px;
+      box-shadow: 0 0 6px rgba(19, 169, 24, 0.8);
+      border-radius: 20px;
+     }
+    
+     from .grupo{
+      position: none;
+      margin: 100px;
+     }
+    
+     input{
+      background: none;
+      color: rgb(61, 61, 60);
+      font-size: 20px;
+      padding: 5px 5px 5px 5px;
+      display: block;
+      width: 100%;
+     }
+    
+    #cuadro{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(5, 5, 5);
+      margin: 250px;
+      font-size: 150%;
+    }
+    #doc{
+      font-size: 500%;
+    }
+    
+    i{
+        font-size: 50px;
+    }
+    .footer{
+      background: #41bb49;
+      display: flex;
+    }
+    *list{
+    
+      position: none;
+      margin: 45px;
+    }
+    
+    ul, ol {
+    
+      list-style: none;
+    }
+    footer{
+      background-color: #41bb49;
+      margin-bottom: 80px;
+      display: flex;
+      justify-content: space-around
+    }
+    
+    .nav li a{
+    background-color: rgb(117, 241, 117);
+    color:rgb(20, 19, 19);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;    
+    }
+    
+    .nav li a:hover {
+      background-color: rgb(191, 236, 169);
+    }
+    
+    .nav > li {
+      float:left;
+      
+    }
+    
+    .nav li ul {
+    
+      display:none;                                                                                                                                                                                                                                                                                                                                                                   
+      position:absolute;
+      min-width: 140px;
+    }
+    
+    .nav li:hover > ul{
+      display:block;
+    }
+    
+    .nav li ul il{
+      position: relative;
+    }
+    
+    

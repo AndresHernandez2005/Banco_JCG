@@ -12,8 +12,8 @@
     <meta name="language" content="ES">
     <meta name="responder a" content="garzonhernandezgerman@gmail.com, jeidibaron@gmail.com, crispipe2608@gmail.com">
     <meta name="viewport" content="widht=device-widht,initial-scale=1.0">
-    <link rel="shorcut icon" href="./img/logo banco.jpeg" />
-    <link rel="stylesheet" type="text/css" href="./css/registro.css">
+    <link rel="shorcut icon" href="./img/logo banco.jpeg"/>
+    <link rel="stylesheet" type="text/css" href="./css/login.css.css">  
 </head>
 
 <header>
@@ -36,54 +36,32 @@
 
 <body>
     <section id="cuadro">
-        <form action="./php/Sing in.php" method="POST" autocomplete="off">
-            <section id="logo"> <img id="logo" src="./img/logo banco.jpeg" alt="logo" height="60px" width="60px">
-            </section>
-            <h1>Sign in</h1>
-            <br>
+        <form action="./php/Sing up.php" method="POST" autocomplete="off">
+            <section id="logo"> <img id="logo" src="./img/logo banco.jpeg" alt="logo" height="60px" width="60px"></section>
+            <h1>Sign up</h1>
             <br>
             <br>
             <article class="grupo">
-                <label for="">Nombre Completo</label>
+                <label for="">Tipo de Identificación</label>
+                <select name="TipDoc" id="Doc">
+                    <option value="TI">Tarjeta de Identidad</option>
+                    <option value="TI">Tarjeta de Extranjeria</option>
+                    <option value="TI">Cedula de Ciudadania</option>
+                </select>
+                <br>
             </article>
             <br>
-            <input type="text" name="" id="name" required><span class="barra"> </input>
-                <br>
-                <article class="grupo">
-                    <label for="">Tipo de Identificación</label>
-                    <select name="TipDoc" id="Doc">
-                        <option value="TI">Tarjeta de Identidad</option>
-                        <option value="TI">Tarjeta de Extranjeria</option>
-                        <option value="TI">Cedula de Ciudadania</option>
-                    </select>
+            <article class="grupo">
+                <label for="">Número de Identificación</label>
+            </article>
+            <br>
+             <input type="text" name="" id="name" required><span class="barra"> </input>
+                <article>
+                    <button value="submit" type="submit">ENVIAR</button>
                 </article>
-                <br>
-                <article class="grupo">
-                    <label for="">Número de Identificación</label>
-                </article>
-                <br>
-                <input type="text" name="" id="name" required><span class="barra"> </input>
-                    <br>
-                    <article class="grupo">
-                        <label for="">Correo Electrónico</label>
-                    </article>
-                    <br>
-                    <input type="text" name="" id="name" required><span class="barra"> </input>
-                        <br>
-                        <article class="grupo">
-                            <label for="">Fecha de Nacimiento </label>
-                        </article>
-                        <br>
-                        <input type="text" name="" id="name" required><span class="barra"> </input>
-
-
-                            <article>
-                                <button value="submit" type="submit">ENVIAR</button>
-                            </article>
-
+           
         </form>
     </section>
-
 
     <footer>
         <section class="footer">
@@ -107,8 +85,11 @@
                 </li>
             </article>
     </section>
-    </footer>
+   
     
+</footer>
+
 </body>
+
 
 </html>

@@ -5,7 +5,7 @@
 		private $user ="root";
 		private $password ="";
 		private $db = "banco_jcg";
-		private $conect;
+		private $conect;	
 
 		public function __construct(){
 			$conectionString = "mysql:hos=".$this->host."dbname".$this->db."charset=uft8";
